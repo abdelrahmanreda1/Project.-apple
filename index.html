@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  
+  <div class="container">
+    <header>
+      <a href="#"><img class="logo" src="images/logo.png" alt="Apple"></a>
+      
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">news</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </header>
+    
+    <section>
+      <div>
+        <h1>iphon 13 pro max</h1>
+        <p>
+          Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.
+        </p>
+        <button type="submit">All Products</button>
+      </div>
+      <img id="main" src="images/0.png" alt="gold" name="main">
+    </section>
+    
+    <footer>
+      <ul>
+        <li><img id="gold" onclick="main.src=this.src; body.style.background='#e4b95b'"  src="images/0.png"  alt="gold"></li>
+        
+        <li><img id="skyblue" onclick="main.src=this.src; body.style.background='skyblue'" src="images/1.png" alt="skyblue"></li>
+        
+        <li><img onclick="main.src=this.src; body.style.background='#736F6E'"  id="gray" src="images/2.png" alt="gray"></li>
+        
+        <li><img  id="beige" onclick="main.src=this.src; body.style.background='#BDA685'" src="images/3.png" alt="beige"></li>
+        
+        <li><img id="red" onclick="main.src=this.src; body.style.background='red'" src="images/4.png" alt="red"></li>
+      </ul>
+    </footer>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
